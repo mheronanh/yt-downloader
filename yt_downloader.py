@@ -3,7 +3,6 @@ import pytube
 import io
 from PIL import Image, ImageTk
 from urllib.request import urlopen
-from time import sleep
 
 def unduh():
     yt = pytube.YouTube(str(entry.get()))
